@@ -27,7 +27,7 @@ El programa Dockerfile hace lo siguiente:
       `install.bash`
 
    2.3. Arrancar el servidor
-      `run_app.cmd`
+      `run_app.bash`
 
 3. Finalmente cuando arranca el servidor http escucha las peticiones
    en el puerto 3000
