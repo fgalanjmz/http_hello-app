@@ -1,0 +1,46 @@
+// ***********************************************************************************************
+// *                                                                                             *
+// *                                 Fco Galan Software Ltd.                                     *
+// *                                                                                             *
+// *                                       Http_Hello                                            *
+// *                                                                                             *
+// *                                                                                             *
+// *                                 Copyright (c) 1980-2024                                     *
+// *                                                                                             *
+// ***********************************************************************************************
+// 
+// ***********************************************************************************************
+// * Copyright (c) 1980-2024 FGalan Software and its licensors.                                  *
+// * All rights reserved.                                                                        *
+// * Without the owner's prior written consent,                                                  *
+// * no decompiling or reverse-engineering shall be allowed.                                     *
+// ***********************************************************************************************
+//
+// ***********************************************************************************************
+// Aplicacion         : Servidor HTTP
+// Modulo             : Http_Hello
+//                      Ejemplo de un servidor HTTP simple
+// Lenguaje           : Javascript
+// Compilador         : Node.js v20.11.1
+// Instalador         : Npm 10.4.0
+// Sis. Op.           : Windows 10 (x64)
+// Sis. Op, host      : Linux Ubuntu 12.4 LTS
+// Historia de cambios:
+// ***********************************************************************************************
+// Version  Fecha            Programador  Descripcion del cambio
+// -------  ---------------  -----------  --------------------------------------------------------
+// 1.0.1.0  2024/08/14       Fco Galan    Version inicial
+//                                        Este programa habilita un servidor HTTP en un contenedor Docker
+//                                        Responde en la ruta http://<URL servidor>/hello en el puerto 3000
+//                                        con el mensje {200,"Hello world"}
+//                                        Para cualquier otra ruta ruta responde el mensaje {400,}"not found"}
+//                                        Documentacion
+// 2.0.1.0  2024/09/07       Fco Galan    Correccion de errores en comentarios
+//                                        Documentacion
+// 3.0.1.0  2024/10/17       Fco Galan    Conversión de scripts CMD a Bash para Linux (Docker)
+//                                        Correccion de errores en comentarios
+//                                        Homolgacion de comentarios
+//                                        Roeorganizacion de archivos
+//                                        Integracion a repo en Github
+//                                        Documentacion
+// ***********************************************************************************************

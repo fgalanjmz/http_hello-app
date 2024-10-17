@@ -1,0 +1,11 @@
+{
+  "name": "http_hello-app",
+  "version": "1.0.0",
+  "description": "Servidor http simple",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js"
+  },
+  "author": "FGalan",
+  "license": "GNU-v3.0"
+}
